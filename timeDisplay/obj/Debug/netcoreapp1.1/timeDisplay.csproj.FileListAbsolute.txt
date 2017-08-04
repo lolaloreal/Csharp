@@ -1,0 +1,8 @@
+/Users/lorealmorse/Desktop/C#/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.deps.json
+/Users/lorealmorse/Desktop/C#/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.runtimeconfig.json
+/Users/lorealmorse/Desktop/C#/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.runtimeconfig.dev.json
+/Users/lorealmorse/Desktop/C#/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.dll
+/Users/lorealmorse/Desktop/C#/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.pdb
+/Users/lorealmorse/Desktop/C#/timeDisplay/obj/Debug/netcoreapp1.1/timeDisplay.AssemblyInfo.cs
+/Users/lorealmorse/Desktop/C#/timeDisplay/obj/Debug/netcoreapp1.1/timeDisplay.dll
+/Users/lorealmorse/Desktop/C#/timeDisplay/obj/Debug/netcoreapp1.1/timeDisplay.pdb

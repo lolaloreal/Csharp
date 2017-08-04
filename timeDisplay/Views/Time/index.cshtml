@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+    </head>
+    <body>
+        <div align="center">
+            <h1>The current time and date:</h1>
+
+            @{
+                DateTime localDate = DateTime.Now;
+                string theTime = String.Format("{0:hh:mm tt}", localDate);
+                string theDate = String.Format("{0:MMM dd, yyyy}", localDate);
+                <p>@theDate</p> 
+                <p>@theTime</p>
+                
+            }
+        </div>
+    </body>
+</html>

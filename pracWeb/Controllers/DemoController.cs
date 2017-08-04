@@ -11,7 +11,13 @@ namespace pracWeb.Controllers
         // {
         //     return "LB Morse!";
         // }
-
+        [HttpGet]
+        [Route("")]
+        public IActionResult Index()
+        {
+            return View("Index");
+            //Both of these returns will render the same view (You only need one!)
+        }
 
         [HttpGet]
         [Route("card/{FirstName}/{LastName}/{Age}/{FavColor}")]
