@@ -1,0 +1,8 @@
+/Users/lorealmorse/Desktop/C#/collections_prac/bin/Debug/netcoreapp1.1/collections_prac.deps.json
+/Users/lorealmorse/Desktop/C#/collections_prac/bin/Debug/netcoreapp1.1/collections_prac.runtimeconfig.json
+/Users/lorealmorse/Desktop/C#/collections_prac/bin/Debug/netcoreapp1.1/collections_prac.runtimeconfig.dev.json
+/Users/lorealmorse/Desktop/C#/collections_prac/obj/Debug/netcoreapp1.1/collections_prac.AssemblyInfo.cs
+/Users/lorealmorse/Desktop/C#/collections_prac/bin/Debug/netcoreapp1.1/collections_prac.dll
+/Users/lorealmorse/Desktop/C#/collections_prac/bin/Debug/netcoreapp1.1/collections_prac.pdb
+/Users/lorealmorse/Desktop/C#/collections_prac/obj/Debug/netcoreapp1.1/collections_prac.dll
+/Users/lorealmorse/Desktop/C#/collections_prac/obj/Debug/netcoreapp1.1/collections_prac.pdb

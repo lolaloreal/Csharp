@@ -1,0 +1,8 @@
+/Users/lorealmorse/Desktop/C#/pracWeb/bin/Debug/netcoreapp1.1/pracWeb.deps.json
+/Users/lorealmorse/Desktop/C#/pracWeb/bin/Debug/netcoreapp1.1/pracWeb.runtimeconfig.json
+/Users/lorealmorse/Desktop/C#/pracWeb/bin/Debug/netcoreapp1.1/pracWeb.runtimeconfig.dev.json
+/Users/lorealmorse/Desktop/C#/pracWeb/bin/Debug/netcoreapp1.1/pracWeb.dll
+/Users/lorealmorse/Desktop/C#/pracWeb/bin/Debug/netcoreapp1.1/pracWeb.pdb
+/Users/lorealmorse/Desktop/C#/pracWeb/obj/Debug/netcoreapp1.1/pracWeb.AssemblyInfo.cs
+/Users/lorealmorse/Desktop/C#/pracWeb/obj/Debug/netcoreapp1.1/pracWeb.dll
+/Users/lorealmorse/Desktop/C#/pracWeb/obj/Debug/netcoreapp1.1/pracWeb.pdb

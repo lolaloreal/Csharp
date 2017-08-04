@@ -1,0 +1,8 @@
+/Users/lorealmorse/Desktop/C#/deckCards/bin/Debug/netcoreapp1.1/deckCards.deps.json
+/Users/lorealmorse/Desktop/C#/deckCards/bin/Debug/netcoreapp1.1/deckCards.runtimeconfig.json
+/Users/lorealmorse/Desktop/C#/deckCards/bin/Debug/netcoreapp1.1/deckCards.runtimeconfig.dev.json
+/Users/lorealmorse/Desktop/C#/deckCards/obj/Debug/netcoreapp1.1/deckCards.AssemblyInfo.cs
+/Users/lorealmorse/Desktop/C#/deckCards/bin/Debug/netcoreapp1.1/deckCards.dll
+/Users/lorealmorse/Desktop/C#/deckCards/bin/Debug/netcoreapp1.1/deckCards.pdb
+/Users/lorealmorse/Desktop/C#/deckCards/obj/Debug/netcoreapp1.1/deckCards.dll
+/Users/lorealmorse/Desktop/C#/deckCards/obj/Debug/netcoreapp1.1/deckCards.pdb

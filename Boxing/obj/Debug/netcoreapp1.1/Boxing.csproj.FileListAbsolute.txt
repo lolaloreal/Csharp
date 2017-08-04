@@ -1,0 +1,8 @@
+/Users/lorealmorse/Desktop/C#/Boxing/bin/Debug/netcoreapp1.1/Boxing.deps.json
+/Users/lorealmorse/Desktop/C#/Boxing/bin/Debug/netcoreapp1.1/Boxing.runtimeconfig.json
+/Users/lorealmorse/Desktop/C#/Boxing/bin/Debug/netcoreapp1.1/Boxing.runtimeconfig.dev.json
+/Users/lorealmorse/Desktop/C#/Boxing/obj/Debug/netcoreapp1.1/Boxing.AssemblyInfo.cs
+/Users/lorealmorse/Desktop/C#/Boxing/bin/Debug/netcoreapp1.1/Boxing.dll
+/Users/lorealmorse/Desktop/C#/Boxing/bin/Debug/netcoreapp1.1/Boxing.pdb
+/Users/lorealmorse/Desktop/C#/Boxing/obj/Debug/netcoreapp1.1/Boxing.dll
+/Users/lorealmorse/Desktop/C#/Boxing/obj/Debug/netcoreapp1.1/Boxing.pdb

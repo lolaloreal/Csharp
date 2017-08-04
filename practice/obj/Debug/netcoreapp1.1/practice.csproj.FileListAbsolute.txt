@@ -1,0 +1,8 @@
+/Users/lorealmorse/Desktop/C#/practice/bin/Debug/netcoreapp1.1/practice.deps.json
+/Users/lorealmorse/Desktop/C#/practice/bin/Debug/netcoreapp1.1/practice.runtimeconfig.json
+/Users/lorealmorse/Desktop/C#/practice/bin/Debug/netcoreapp1.1/practice.runtimeconfig.dev.json
+/Users/lorealmorse/Desktop/C#/practice/obj/Debug/netcoreapp1.1/practice.AssemblyInfo.cs
+/Users/lorealmorse/Desktop/C#/practice/bin/Debug/netcoreapp1.1/practice.dll
+/Users/lorealmorse/Desktop/C#/practice/bin/Debug/netcoreapp1.1/practice.pdb
+/Users/lorealmorse/Desktop/C#/practice/obj/Debug/netcoreapp1.1/practice.dll
+/Users/lorealmorse/Desktop/C#/practice/obj/Debug/netcoreapp1.1/practice.pdb
