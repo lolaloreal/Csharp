@@ -1,0 +1,19 @@
+*{
+    font-family: helvetica;
+    text-align: center;
+    padding: 25px;
+}
+
+h1{
+    display: inline-block;
+}
+
+h3{
+    display: inline-block;
+}
+
+div{
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 5px 60px;
+}

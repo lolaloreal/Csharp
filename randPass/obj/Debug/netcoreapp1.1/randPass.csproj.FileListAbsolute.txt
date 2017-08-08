@@ -1,0 +1,8 @@
+/Users/lorealmorse/Desktop/C#/randPass/bin/Debug/netcoreapp1.1/randPass.deps.json
+/Users/lorealmorse/Desktop/C#/randPass/bin/Debug/netcoreapp1.1/randPass.runtimeconfig.json
+/Users/lorealmorse/Desktop/C#/randPass/bin/Debug/netcoreapp1.1/randPass.runtimeconfig.dev.json
+/Users/lorealmorse/Desktop/C#/randPass/obj/Debug/netcoreapp1.1/randPass.AssemblyInfo.cs
+/Users/lorealmorse/Desktop/C#/randPass/bin/Debug/netcoreapp1.1/randPass.dll
+/Users/lorealmorse/Desktop/C#/randPass/bin/Debug/netcoreapp1.1/randPass.pdb
+/Users/lorealmorse/Desktop/C#/randPass/obj/Debug/netcoreapp1.1/randPass.dll
+/Users/lorealmorse/Desktop/C#/randPass/obj/Debug/netcoreapp1.1/randPass.pdb
