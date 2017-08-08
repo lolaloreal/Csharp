@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <title>This is a Survey</title>
+</head>
+<body>
+    <h1>Hey There:</h1>
+    <form action="process" method="post">
+        <p>Name: <input type="text" name="name" id=""></p>
+
+        <p>Moon: <select name="moon" id=""></p>
+            <option value="Europa">Europa</option>
+            <option value="Titan">Titan</option>
+            <option value="Io">Io</option>
+            <option value="Rhea">Rhea</option>
+        </select>
+
+        <p>Planet: <select name="planet" id=""></p>
+            <option value="Saturn">Saturn</option>
+            <option value="Jupiter">Jupiter</option>
+        </select>
+
+        <p>Comment (optional): 
+            <br><br>
+            <textarea name="comment" rows="4" cols="50"></textarea>
+        </p>
+
+        <hr>
+        <input type="submit" name="submit" value="Submit Survey">
+    </form>
+
+    <p>//////</p>
+</body>
+</html>
