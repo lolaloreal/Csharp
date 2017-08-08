@@ -1,0 +1,16 @@
+/*Write all of your CSS here*/
+*{
+    font-family: helvetica;
+    text-align: center;
+    padding: 10px;
+}
+
+div.info{
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+p{
+    padding: 5px;
+}
