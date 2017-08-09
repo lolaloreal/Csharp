@@ -1,0 +1,15 @@
+<h1>These Are Quotes</h1>
+<p>//////<p>
+
+
+@foreach(var OneUser in @ViewBag.AllUsers){
+    <div class="OneQuote">    
+        <h3>@OneUser["name"]</h3>
+        <p>"@OneUser["quote"]"</p>
+        <h5>@OneUser["created_at"]</h5>
+    </div>
+    <br>
+}
+
+
+<a href="/">HOME</a>
