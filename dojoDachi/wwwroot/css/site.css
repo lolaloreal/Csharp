@@ -1,0 +1,35 @@
+/*Write all of your CSS here*/
+*{
+    font-family: helvetica;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+div.top{
+    display: inline-block; 
+}
+
+div.middle{
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 25px 30px 10px;
+}
+
+h3{
+    display: inline-block;
+}
+
+p{
+    display: inline-block;
+}
+
+form{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+}

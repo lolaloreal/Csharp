@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Do You Dachi?</h1>
+<p>dachi dachi dachi</p>
+<br>
+
+<div class="top">
+    <h3>Fullness</h3>
+    <p>@ViewBag.dachi.happiness</p>
+    <h3>Happiness</h3>
+    <p>@ViewBag.dachi.fullness</p>
+    <h3>Enery</h3>
+    <p>@ViewBag.dachi.energy</p>
+    <h3>Meals</h3>
+    <p>@ViewBag.dachi.meals</p>
+</div>
+<br>
+
+<div class="middle">
+    @if(ViewBag.dachi.status == "Your dachi done did died.")
+    {
+        <a href="reset">Reset</a>
+    }
+    else if (ViewBag.dachi.happiness > 100 && ViewBag.dachi.fullness > 100 && ViewBag.dachi.energy > 100)
+    {
+        <p>I think you won.</p>
+        <br>
+        <a href="reset">Wanna Reset?</a>
+        <br>
+    } else
+    {
+        <h3>@ViewBag.dachi.status</h3>
+    }
+    <br>
+
+    @if(ViewBag.dachi.fullness < 0 || ViewBag.dachi.happiness < 0){
+        <a href="reset">Reset</a>
+    } 
+    else    
+    {
+        @if(ViewBag.dachi.energy >= 5){
+            <form action="process" method="post">
+                <input type="hidden" name="Activity" value="Work">
+                <input type="submit" value="Work">
+            </form>
+
+            <form action="process" method="post">
+                <input type="hidden" name="Activity" value="Play">
+                <input type="submit" value="Play">
+            </form>
+            }
+
+            <form action="process" method="post">
+                <input type="hidden" name="Activity" value="Sleep">
+                <input type="submit" value="Sleep">
+            </form>
+
+            <form action="process" method="post">
+                <input type="hidden" name="Activity" value="Feed">
+                <input type="submit" value="Feed">
+            </form>
+        }
+</div>
