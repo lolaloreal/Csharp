@@ -1,0 +1,48 @@
+/*Write all of your CSS here*/
+*{
+    font-family: helvetica;
+    padding: 10px;
+    text-align: center;
+}
+
+form{
+    border: 1px solid #000;
+    width: 400px;
+    padding-bottom: 10px;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    position: relative;
+    top: 20px;
+}
+
+div.OneQuote{
+    border: 1px solid #000;
+    width: 600px;
+    margin: 15px;
+    display: inline-block;
+}
+
+input.button{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+}
+
+h3{
+     display: inline-block; 
+}
+
+div.right{
+    display: inline-block;
+}
+
+div.left{
+    display: inline-block;
+    vertical-align: top;
+}

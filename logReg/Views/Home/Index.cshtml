@@ -1,0 +1,71 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model logReg.Models.User
+
+<h1>Welcome</h1>
+
+
+
+<div class="left">
+<h3>Login</h3>
+<br>
+<form asp-action="Login" method="post">
+    <p>EMAIL
+        <br>
+        <input type="text" name="Email">
+    </p>
+
+    <p>PASSWORD
+        <br>
+        <input type="password" name="Password">
+    </p>
+
+    <input class="button" type="submit" value="LOG IN">
+</form>
+</div>
+
+<div class="right">
+<h3>Register</h3>
+<br>
+<form asp-action="AddUser" method="post">
+    <p>FIRST NAME
+        <br>
+        <input asp-for="FirstName">
+        <br>
+        <span asp-validation-for="FirstName"></span>
+    </p>
+
+    <p>LAST NAME
+        <br>
+        <input asp-for="LastName">
+        <br>
+        <span asp-validation-for="LastName"></span>
+    </p>
+
+    <p>EMAIL
+        <br>
+        <input asp-for="Email">
+        <br>
+        <span asp-validation-for="Email"></span>
+    </p>
+
+    <p>PASSWORD
+        <br>
+        <input asp-for="Password">
+        <br>
+        <span asp-validation-for="Password"></span>
+    </p>
+
+    <p>CONFIRM PASSWORD
+        <br>
+        <input type="password" name="PassConfirm">
+        <br>
+        <span asp-validation-for="PassConfirm"></span>
+    </p>
+
+    <input class="button" type="submit" value="REGISTER">
+</form>
+</div>
+<br>
+<a href="results">Do you work?</a>
