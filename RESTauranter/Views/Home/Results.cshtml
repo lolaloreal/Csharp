@@ -1,0 +1,15 @@
+<h1>Here Are Reviews</h1>
+
+@foreach(var review in @ViewBag.AllReviews){
+    string TheTime = String.Format("{0:M/d/yyyy}", @review.DateVisited);
+    
+    <div class="reviewInfo">
+        <h3>@review.Restaurant</h3> 
+        <p>@review.Content</p>
+        <h5>@review.Reviewer  |  @TheTime  |  @review.Rating ★</h5>
+    </div>
+}
+
+<br>
+<a href="/">HOME</a>
+   
