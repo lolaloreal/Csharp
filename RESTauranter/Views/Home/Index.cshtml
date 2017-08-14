@@ -9,21 +9,21 @@
 <form asp-controller="Home" asp-action="AddReview" method="post">
     <p>Reviewer Name
         <br>
-        <span asp-for="Reviewer"></span>
+        <span asp-validation-for="Reviewer"></span>
         <br>
         <input asp-for="Reviewer">
     </p>
 
     <p>Restaurant
         <br>
-        <span asp-for="Restaurant"></span>
+        <span asp-validation-for="Restaurant"></span>
         <br>
         <input asp-for="Restaurant">
     </p>
 
     <p>Review
         <br>
-        <span asp-for="Content"></span>
+        <span asp-validation-for="Content"></span>
         <br>
         <textarea asp-for="Content"></textarea>
     </p>
@@ -31,7 +31,7 @@
 
     <p>Rating
         
-        <span asp-for="Rating"></span>
+        <span asp-validation-for="Rating"></span>
 
         <select asp-for="Rating">
             <option value="5">5</option>
@@ -50,7 +50,7 @@
     </p> -->
 
     <p>Date of Visit</p>
-    <span asp-for="DateVisited"></span>
+    <span asp-validation-for="DateVisited"></span>
     <br>
     <input asp-for="DateVisited" type="date">
     <br><br>

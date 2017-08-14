@@ -9,15 +9,20 @@ namespace RESTauranter.Models{
         public int ReviewId { get; set; }
 
         [Required]
+        [Display(Name="Reviewer")]
         public string Reviewer { get; set; }
 
         [Required]
+        [Display(Name="Restaurant")]
         public string Restaurant { get; set; }
 
         [Required]
+        [MinLength(10)]
+        [Display(Name="Content")]
         public string Content { get; set; }
 
         [Required]
+        [Display(Name="Rating")]
         public int Rating { get; set; }
 
         [Required]

@@ -35,3 +35,7 @@ div.reviewInfo{
     width: 400px;
     display: inline-block;
 }
+
+span{
+    color: red;
+}
