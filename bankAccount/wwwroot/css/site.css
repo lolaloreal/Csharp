@@ -1,0 +1,55 @@
+/*Write all of your CSS here*/
+*{
+    font-family: helvetica;
+    padding: 10px;
+    text-align: center;
+}
+
+form{
+    border: 1px solid #000;
+    width: 400px;
+    padding-bottom: 10px;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    position: relative;
+    top: 20px;
+}
+
+ /* hr{
+    padding: 0px;
+} */
+  
+button{
+    padding: 10px;
+}   
+
+table{
+    border: 1px solid #000;
+    margin: 10px;
+    width: 170px;
+    text-align: center;
+    display: inline-block;   
+    vertical-align: top; 
+}  
+
+span{
+    color: red;
+}
+
+form.money{
+    width: 270px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.money{
+    vertical-align: top;
+
+}
