@@ -1,0 +1,43 @@
+@model cbelt.Models.AuctionViewModel
+
+
+<h1>New Auction</h1>
+<p>//////<p>
+
+<form asp-controller="Home" asp-action="AddAuction" method="post">
+    <p>PRODUCT NAME
+        <br>
+        <span asp-validation-for="ProductName"></span> 
+        <br>
+        <input asp-for="ProductName">
+    </p>
+
+    <p>DESCRIPTION
+        <br>
+        <span asp-validation-for="Description"></span>
+        <br>
+        <input asp-for="Description">
+    </p>
+
+    <p>STARTING BID
+        <br>
+        <span asp-validation-for="StartingBid"></span>
+        <br>
+        <input asp-for="StartingBid">
+    </p>
+
+    <p>END DATE
+        <br>
+        <span asp-validation-for="EndDate"></span>
+        <br>
+        <input asp-for="EndDate" type="date">
+    </p>
+
+    <button type="submit">
+        CREATE AUCTION
+    </button>
+</form>
+
+<br>
+<a href="ClearSession">LOGOUT</a>
+<a href="Dashboard">AUCTION DASHBOARD</a>
