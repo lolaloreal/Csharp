@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using cbelt.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using cbelt.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace cbelt.Controllers
@@ -149,8 +149,6 @@ namespace cbelt.Controllers
             ViewBag.Wallet = Wallet;
             ViewBag.CurrUser = _context.Users.SingleOrDefault(user => user.UserId == (int)LoginUserId);
 
-            ViewBag.CurrAuctions = _context.Auctions.Where(auction => auction.EndDate > DateTime.Now).ToList().OrderBy(auction => auction.EndDate);
-
             System.Console.WriteLine(ViewBag.LoginUser);
             System.Console.WriteLine(ViewBag.LoginUserid);
 
@@ -194,14 +192,16 @@ namespace cbelt.Controllers
             ViewBag.LoginUser = HttpContext.Session.GetString("Username");
             ViewBag.LoginUserId = HttpContext.Session.GetInt32("UserId");
             ViewBag.Errors = new List<string>();
+
+            System.Console.WriteLine("********are you going into model*******");
             if (ModelState.IsValid)
             {
                 if (Model.EndDate > DateTime.Now)
                 {   
-                    System.Console.WriteLine("in new auction valid");
+                    System.Console.WriteLine("******in new auction valid******");
                     Auction NewAuction = new Auction
                     {
-                        // UserId = ViewBag.LoginUserId,
+                        UserId = ViewBag.LoginUserId,
                         ProductName = Model.ProductName,
                         Description = Model.Description,
                         StartingBid = Model.StartingBid,
@@ -224,11 +224,11 @@ namespace cbelt.Controllers
             }
             else
             {
-                System.Console.WriteLine("else of add auction/not valid model");
+                System.Console.WriteLine("else of add auction/not valid model+++++++++++++++");
                 ViewBag.Errors = new List<string>();
                 
                 //will show errors that may have occured
-                return RedirectToAction("NewAuction");
+                return View("NewAuction");
             }
         }
 
