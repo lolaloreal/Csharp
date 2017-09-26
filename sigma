@@ -1,0 +1,7 @@
+function sigma(num) {
+	let sum = 0;
+	for (let x = 1; x <= num; x++) {
+		sum += x
+	}
+	return sum;
+}
